@@ -422,7 +422,7 @@ Use /feedback cmd to contact bot owner'''
             text="""Owners / Sudos can also use
 
 - __/term__ `to run a cmd in terminal`
-- __/eval__ `to run a python code (code must start right after cmd like `__/eval print('UwU')__`)`
+- __/eval__ `to run a python code (code must start right after cmd like `__/eval print('Ara~')__`)`
 - __/stats__ `to get stats on bot like no. of users, grps and authorised users`
 - __/dbcleanup__ `to remove obsolete/useless entries in database`
 
