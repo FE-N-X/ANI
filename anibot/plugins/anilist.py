@@ -60,7 +60,7 @@ async def anime_cmd(client: anibot, message: Message, mdata: dict):
     if find_gc is not None and 'anime' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /anime Ao Haru Ride")
+        k = await message.reply_text("Please give a query to search about\nexample: /anime Charlotte")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -104,7 +104,7 @@ async def manga_cmd(client: anibot, message: Message, mdata: dict):
     if find_gc is not None and 'manga' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /manga The teasing master Takagi san")
+        k = await message.reply_text("Please give a query to search about\nexample: /manga Vegabond")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -147,7 +147,7 @@ async def character_cmd(client: anibot, message: Message, mdata: dict):
     if find_gc is not None and 'character' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /character Nezuko")
+        k = await message.reply_text("Please give a query to search about\nexample: /character Kagura")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
@@ -267,7 +267,7 @@ async def airing_cmd(client: anibot, message: Message, mdata: dict):
     if find_gc is not None and 'airing' in find_gc['cmd_list'].split():
         return
     if len(text)==1:
-        k = await message.reply_text("Please give a query to search about\nexample: /airing Fumetsu no Anata e")
+        k = await message.reply_text("Please give a query to search about\nexample: /airing Koroshi ai")
         await asyncio.sleep(5)
         return await k.delete()
     query = text[1]
